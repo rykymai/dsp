@@ -24,10 +24,9 @@ V = exp(-j*2*pi/N*n'*k);    % Matrix of twiddle factors
 X = x_e*V; % the DTFT (matrix product)
 
 
-% figure();
-% plot(n, X);
-% stem(n, X);
-% zoom xon;
+figure();
+stem(n, X);
+zoom xon;
 return;
 
 
